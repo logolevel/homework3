@@ -46,11 +46,14 @@ a {
 	border-right: 1px solid #838383;
 }
 /*main*/
+/*aside*/
 .goods {
 	width: 240px;
 	margin-right: 45px;
+	float: left;
 }
-.goods ul {
+.goods ul,
+.goods-photo {
 	border: 1px solid #c8c8c8;
 }
 .goods li {
@@ -70,4 +73,24 @@ a.active,
 	color: #2c2c2c;
 	padding-left: 35px;
 	background-color: #f9f9f9;
+}
+/*content*/
+.content {
+	width: 775px;
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.goods-photo {
+	text-align: center;
+}
+.description {
+	margin: 35px 25px 40px;
+}
+.description p {
+	font-size: 14px;
+	color: #2c2c2c;
+	padding-bottom: 20px;
+	line-height: 22px;
 }
